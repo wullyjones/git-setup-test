@@ -1,0 +1,48 @@
+#page-header {
+    margin-bottom: 10px;
+}
+
+.spacing-sm {
+    margin: 5px;
+    padding: 5px;
+}
+
+.spacing-md {
+    margin: 10px;
+    padding: 10px;
+}
+
+.spacing-lg {
+    margin: 15px;
+    padding: 15px;
+}
+
+.outline-red {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.outline-blue {
+    border: 1px solid #1900f8;
+    border-radius: 5px;
+}
+
+.outline-black {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.outline-orange {
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+
+.outline-purple {
+    border: 1px solid #6600db;
+    border-radius: 5px;
+}
+
+.outline-yellow {
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
