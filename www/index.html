@@ -22,9 +22,12 @@
     </header>
     <main class="spacing-sm">
         <section class="outline-black container">
-            <header class="outline-red spacing-sm">
-                <h1>Does the container belong here?</h1>
-                <p>Find out on the next episode of Dragon Ball Z</p>
+            <header class="outline-purple spacing-sm">
+                <h1>TODO</h1>
+                <ol>
+                    <li>Create a post form</li>
+                    <li>Feed content area with post data from DB, remove static HTML data</li>
+                </ol>
             </header>
             <article class="outline-orange spacing-sm">
                 <header>
@@ -58,6 +61,34 @@
                 <footer>
                     <p>Article Footer</p>
                 </footer>
+            </article>
+        </section>
+        <div class="spacing-sm"></div>
+        <section class="outline-black container">
+            <article class="spacing-sm">
+                <div>
+                    <p>Use this area to create a posting mechanism for the above content. Basic form with a subject, content, and a hidden tags field. On Submit, if client side validation is passed it should generate the tags by taking each word seperated by a colon and eliminating structural words. All the information should be stored in a database.</p>
+                    <form>
+                        <div class="form-group row">
+                            <label for="txtSubject" class="col-sm-2 col-form-label"><strong>Subject</strong></label>
+                            <div class="col-sm-5">                     
+                                <input type="text" class="form-control" id="txtSubject">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="txtContent" class="col-sm-2 col-form-label"><strong>Content</strong></label>
+                            <div class="col-sm-5">                     
+                                <textarea class="form-control" id="txtContent" rows="4"></textarea>
+                                <input type="hidden" id="txtTags">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-2">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </article>
         </section>
     </main>
